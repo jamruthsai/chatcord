@@ -4,7 +4,8 @@
   "description": "Real Time Chat App with rooms",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server", 
+    "dev":"nodemon server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/jamruthsai/chatcord/issues"
   },
-  "homepage": "https://github.com/jamruthsai/chatcord#readme"
+  "homepage": "https://github.com/jamruthsai/chatcord#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
