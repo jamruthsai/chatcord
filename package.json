@@ -19,7 +19,7 @@
   "homepage": "https://github.com/jamruthsai/chatcord#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "moment": "^2.29.1",
+    "moment": "^2.29.4",
     "socket.io": "^4.1.2"
   },
   "devDependencies": {
